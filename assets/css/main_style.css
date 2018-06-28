@@ -1,0 +1,239 @@
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+html, body{
+  font-family: 'NanumSquare', sans-serif;
+  margin:0;
+  padding:0;
+}
+.multi-banner {
+  position: relative;
+  padding-left: 5px;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 1240px;
+  max-width: 2340px;
+  overflow: hidden;
+}
+
+img{
+  width: 360px;
+  height: 550px;
+}
+
+button.slick-next, button.slick-next:hover {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  z-index: 1;
+  width: 47px;
+  height: 75px;
+  background-image: url("http://maggiesadler.com/wp-content/uploads/2015/10/left-right-arrow.png");
+  background-size: 95px;
+}
+
+button.slick-prev, button.slick-prev:hover {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  width: 47px;
+  height: 75px;
+  background-image: url("http://maggiesadler.com/wp-content/uploads/2015/10/left-right-arrow.png");
+  background-size: 95px;
+  background-position-x: right;
+}
+.slick-prev:before, .slick-next:before {
+  font-size: 70px;
+  color: #EA8496;
+  line-height: inherit;
+  font-weight: bold;
+}
+
+.middle-banner{
+  width: 1240px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.middle-banner-title{
+  margin: 0 0 20px;
+}
+.middle-banner-title h2{
+  font-size: 22px;
+  color: #23212a;
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: 500;
+}
+.middle-banner-logo{
+  margin-top: -20px;
+}
+
+.swiper-slide div img{
+  width: 370px;
+  height: 550px;
+}
+
+.middle-banner div img{
+  width: 100%;
+  height: 600px;
+}
+.middle-banner-logo{
+  margin-bottom: 20px;
+}
+.boxoffice-box{
+  float: left;
+  margin-right: 20px;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 500px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.officeTop{
+  height: 153px;
+  text-align: center;
+  background: #23212a;
+}
+.boxoffice-box .officeTop h2{
+  color: #fff;
+  padding: 30px 0 0;
+}
+.boxoffice-box .officeTop .officeTab{
+  display: inline-block;
+}
+.boxoffice-box .officeTop .officeTab li:first-child{
+  background: none;
+  border-right: 1px solid #7f8285;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.officeTab{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+.boxoffice-box .officeTop .officeTab li{
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: baseline;
+}
+
+.boxoffice-box .officeTop .officeTab li.on a{
+  border-bottom: 1px solid #7f8285;
+  padding-bottom: 3px;
+}
+
+.boxoffice-box .officeTop .officeTab li a{
+  display: inline-block;
+  padding-bottom: 3px;
+  color: #fff;
+}
+.officeCont{
+  padding-top: 20px;
+}
+
+.map-box{
+  float: left;
+  top: 0;
+  left: 0;
+  width: 46%;
+  margin-right: 20px;
+  margin-top: 20px;
+  height: 500px;
+  overflow: hidden;
+  background: #7f8285;
+  border: 1px solid #7f8285;
+}
+
+ol{
+  list-style: none;
+  margin:0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+.blind{
+  overflow: hidden;
+  position: absolute;
+  left: -9999px !important;
+  top: -9999px !important;
+}
+.tit{
+  float: left;
+  display: table;
+  height: 30px;
+  color: #1a1917;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+.tit em{
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  line-height: 30px;
+  padding-right: 5px;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.tit .grade_15{
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  text-indent: -99999em;
+}
+.grade_15{
+  background: url(/LCHS/Image/Bg/bg_grade_15.png) no-repeat 0 0;
+}
+.tit .myTit{
+  display: inline-block;
+  width: 150px;
+  height: 17px;
+  line-height: 17px;
+  vertical-align: middle;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.memRk{
+  float: right;
+  display:inline-block;
+  height: 30px;
+  line-height: 30px;
+  color: #666;
+  font-size: 16px;
+}
+.officeCont .officeRk li{
+  overflow: hidden;
+  height: 54px;
+  padding: 11px 10px 0;
+  box-sizing: border-box;
+}
+.officeCont .officeRk li .memRk em{
+  padding-left: 3px;
+}
+em{
+  font-weight: normal;
+  font-style: normal;
+}
+.recommand-box{
+  float: right;
+  top: 0;
+  left: 0;
+  margin-top: 20px;
+  width: 25%;
+  height: 500px;
+  overflow: hidden;
+  background: #7f8285;
+  border: 1px solid #7f8285;
+}
