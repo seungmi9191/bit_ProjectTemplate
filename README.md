@@ -14,3 +14,5 @@
 ## 업데이트
 - 2018/06/25 : Main Page
 - 2018/06/26 : Analysis Page
+- 2018/06/27 : Ticket Page
+- 2018/06/28 : Another Page
