@@ -1,0 +1,212 @@
+
+#content-wrap {
+    position: relative;
+    width: 100%;
+    min-width: 980px;
+    margin-bottom: 30px;
+
+}
+
+#container {
+    width: 100%;
+    background-color: #fdfcf0;
+
+}
+
+#contents {
+    clear: both;
+    padding-bottom: 50px;
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+[class|="sect"][class*="chart"] > ol {
+    padding-top: 30px;
+    margin-left: -64px;
+    /*border-bottom: 3px solid #244CBA;*/
+    zoom: 1;
+}
+
+[class|="wrap-movie"][class*="chart"] .sect-movie-chart {
+    margin-top: 30px;
+    height: 100%;
+}
+
+[class|="wrap-movie"][class*="chart"] {
+    position: relative;
+    overflow: hidden;
+}
+
+.tit-heading-wrap {
+    position: relative;
+    height: 51px;
+    margin-top: 30px;
+    border-bottom: 3px solid #244CBA;
+    margin-bottom: 15px;
+}
+
+.tit-heading-wrap > .submenu {
+    position: absolute;
+    top: 18px;
+    right: 0;
+}
+
+.tit-heading-wrap > .submenu > ul {
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    word-break: break-all;
+}
+
+.tit-heading-wrap > .submenu > ul > li:first-child {
+
+    margin-left: 0;
+}
+
+.tit-heading-wrap > .submenu > ul > li:first-child > a {
+    color: #244CBA;
+    font-weight: bolder;
+}
+
+.tit-heading-wrap > .submenu > ul > li {
+    float: left;
+    font-size: 18px;
+    margin-left: 15px;
+
+}
+
+ol {
+    padding: 0;
+    font-size: 100%;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    word-break: break-all;
+    list-style: none;
+    height: 350px;
+}
+
+ol > li :first-child {
+    margin-left: 0;
+}
+
+ol > li {
+    float: left;
+    width: 197px;
+    margin-left: 64px;
+    padding-bottom: 30px;
+}
+
+strong {
+    display: block;
+    border: 4px solid #244CBA;
+    vertical-align: center;
+    line-height: 20px;
+    border-top: none;
+
+}
+
+.tit-heading-wrap > h3 {
+    display: inline-block;
+    position: relative;
+    height: inherit;
+    margin: 0;
+    background-image: none;
+    color: #244CBA;
+    font-family: NanumSquare;
+    font-size: 32px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.rank {
+    display: block;
+    height: 28px;
+    margin-bottom: 4px;
+    border: 4px solid #244CBA;
+    color: #244CBA;
+    font-size: 19px;
+    text-align: center;
+    line-height: 28px;
+
+}
+
+.box-image a {
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.ico-grade .grade-15 {
+    background-position: -72px 0;
+}
+
+.ico-grade {
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 32px;
+    height: 32px;
+    background: url(/asset/images/movies/KakaoTalk_Photo_2018-06-26-14-08-13.png) no-repeat;
+    font: 0/0 a;
+    zoom: 1;
+}
+
+.thumb-image {
+    border: 6px solid #244CBA;
+    display: block;
+    position: relative;
+}
+
+.title {
+    height: 22px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    display: block;
+    vertical-align: center;
+    color: #23212a;
+    line-height: 22px;
+    font-size: 19px;
+
+}
+
+div {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    word-break: break-all;
+}
+
+.view_more.full_width {
+    width: 30%;
+    display: block;
+}
+
+.view_more {
+    display: block;
+    color: #ffffff;
+    height: 45px;
+    margin: 20px auto 0 !important;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    background-color: grey;
+    border: none;
+    max-width: 970px;
+}
