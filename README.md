@@ -15,4 +15,6 @@
 - 2018/06/25 : Main Page
 - 2018/06/26 : Analysis Page
 - 2018/06/27 : Ticket Page
-- 2018/06/28 : Another Page
+- 2018/06/28 : Login / Register Page (재선)
+- 2018/06/29 : modal Page (승미)
+- 2018/07/01 : ER-Diagram
